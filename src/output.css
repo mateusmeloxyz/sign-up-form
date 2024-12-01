@@ -554,30 +554,31 @@ video {
   --tw-contain-style:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.flex {
+  display: flex;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.h-auto {
+  height: auto;
 }
 
-.font-bold {
-  font-weight: 700;
+.h-full {
+  height: 100%;
 }
 
-.text-blue-950 {
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(23 37 84 / var(--tw-text-opacity));
-}
-
-.text-red-300 {
-  --tw-text-opacity: 1;
-  color: rgb(252 165 165 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
